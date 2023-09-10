@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Liga 1 Peru</title>
+  </head>
+  <body>
+    <h1>Liga 1 Peru</h1>
+    <table id="tabla-equipos">
+      <thead>
+        <tr>
+          <th>Equipo 1</th>
+          <th>Equipo 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Escudo_Alianza_Lima.svg/472px-Escudo_Alianza_Lima.svg.png"
+              alt="Alianza Lima"
+            />
+            <button
+              onclick="redireccionar('https://www.alianzalima.org.pe', 'Equipo 1')"
+            >
+              Fundación: 1901
+            </button>
+          </td>
+          <td>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Escudo_de_Sporting_Cristal_%28version_2018%29.svg/1024px-Escudo_de_Sporting_Cristal_%28version_2018%29.svg.png"
+              alt="Sporting Cristal"
+            />
+            <button
+              onclick="redireccionar('https://www.sportingcristal.pe', 'Equipo 2')"
+            >
+              Fundación: 1955
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Sport_Boys_As.svg/1024px-Sport_Boys_As.svg.png"
+              alt="Sport Boys"
+            />
+            <button
+              onclick="redireccionar('https://www.sportboys.com.pe', 'Equipo 3')"
+            >
+              Fundación: 1927
+            </button>
+          </td>
+          <td>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/67/Logo_oficial_de_Universitario.png"
+              alt="Universitario de Deportes"
+            />
+            <button
+              onclick="redireccionar('https://www.universitario.pe', 'Equipo 4')"
+            >
+              Fundación: 1924
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
